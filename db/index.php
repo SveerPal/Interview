@@ -1,68 +1,16 @@
 <pre>
 <code>
-$x = true and false;
-var_dump($x);
+Emp_id  Emp_Name        Desig           Salary
+1       Ankit           Manager         10000
+2       Amit            Developer       6000
+3       Abhishek        Developer       6000
+4       Subhash         PM              14000
+5       Harish          Tester          7500
+6       Vishal          Tester          8000
+7       Amit            Tester          6500
+8       Aman            Developer       5000
+
 </code>
 </pre>
-<?php 
-
-$x = true and false;
-var_dump($x);
-
-
-?>
 
 <br/>#############################################################
-<pre>
-<code>
-$a = false;
-switch($a){
-	case '':
-		echo "Blank";
-		break;
-	case 0:
-		echo "Zero";
-		break;
-	case "0":
-		echo "zero string";
-		break;
-	default:
-		echo "false";
-		break;
-}
-</code>
-</pre>
-<?php
-$a = false;
-switch($a){
-	case '':
-		echo "Blank";
-		break;
-	case 0:
-		echo "Zero";
-		break;
-	case "0":
-		echo "zero string";
-		break;
-	default:
-		echo "false";
-		break;
-}
-?>
-<br/>#############################################################
-<pre>
-<code>
-$a= (object)["a"=>"hello"];
-$b = $a;
-$b->a = "world";
-print_r($a);
-print_r($b);
-</code>
-</pre>
-<?php
-$a= (object)["a"=>"hello"];
-$b = $a;
-
-$b->a = "world";
-print_r($a);
-print_r($b);
