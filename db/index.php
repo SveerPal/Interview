@@ -1,3 +1,5 @@
+<h2>What is diffrence between function and procedure</h2>
+<h2>What is diffrence between foreign key and unique key </h2>
 <pre>
 <code>
 Emp_id  Emp_Name        Desig           Salary
